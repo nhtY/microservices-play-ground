@@ -3,7 +3,8 @@
   <component name="SonarLintProjectSettings">
     <option name="moduleMapping">
       <map>
-        <entry key="drink-service" value="juice-service" />
+        <entry key="ecommerce-microservices" value="your-app" />
+        <entry key="product-service" value="juice-service" />
       </map>
     </option>
   </component>
