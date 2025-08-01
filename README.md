@@ -9,8 +9,8 @@ I use a shared database with different schemas for simplicity.
 
 - The ordering process is managed using a state machine, which allows the system to handle various states of an order.
 - The state machine is implemented using the Spring State Machine library.
-- Plus, Command/Orchestration is used to manage the order process, ensuring that all steps are completed successfully or rolled back in case of failure.
 - The Saga Pattern is used to manage distributed transactions across multiple services, ensuring data consistency and reliability.
+- The Saga Pattern is implemented as Command/Orchestration to manage the order process, ensuring that all steps are completed successfully or rolled back in case of failure.
 - Order Service is the orchestrator of the Saga, coordinating the various steps involved in processing an order.
 
 Here is the diagram showing the orchestration of the order process:
